@@ -81,7 +81,7 @@ On édite la GPO
   - Cliquer sur `Share this folder`
   - Cliquer sur OK
   - Bien mettre de côté le chemin de partage `\\Srvwin01\e`
-  - Cliquer sur `Close`
+  - Cliquer sur `Close`  
 ![21](https://github.com/user-attachments/assets/057844d9-59c2-460f-b77f-91d2bd60b686)
 
   - Renouveler la procédure avec `DossiersPersonnels (F:)`
