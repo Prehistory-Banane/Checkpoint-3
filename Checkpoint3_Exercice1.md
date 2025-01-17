@@ -67,25 +67,14 @@ On édite la GPO
   - Afin de durcir les comptes utilisateurs de l'OU **LabUsers**, je fais les choix suivants
 ![18](https://github.com/user-attachments/assets/e9628b93-c9b9-49c8-89cb-165afc45bb90)
 
+- Vérification de la GPO
+![25](https://github.com/user-attachments/assets/f3d48db1-8d98-44b8-9497-c980e687f9ad)
+
 
 
 # Partie 3 : Lecteurs réseaux
 
 ### Q.1.3.1
-- Préparations en amont de la création de la GPO
-  - Ouvrir le `File Explorer`
-  - Faire un clic droit sur `DossiersCommuns (E:)`
-  - Cliquer sur `Properties`
-  - Cliquer sur `Sharing`
-  - Cliquer sur `Advanced Sharing`
-  - Cliquer sur `Share this folder`
-  - Cliquer sur OK
-  - Bien mettre de côté le chemin de partage `\\Srvwin01\e`
-  - Cliquer sur `Close`  
-![21](https://github.com/user-attachments/assets/057844d9-59c2-460f-b77f-91d2bd60b686)
-
-  - Renouveler la procédure avec `DossiersPersonnels (F:)`
-
 - Création de la nouvelle GPO **Drive_Mount**  
 ![19](https://github.com/user-attachments/assets/d90896ed-66b1-4c55-9717-81fc231666a3)
 
@@ -98,7 +87,12 @@ On édite la GPO
 ![20](https://github.com/user-attachments/assets/22243253-ab2c-4a68-b7f4-6a918017bbf6)
 
 - Remplir les champs comme suit pour le mappage de `DossiersCommuns (E:)`
-![22](https://github.com/user-attachments/assets/06974273-70ee-452d-a33a-cdf586051417)
+![22](https://github.com/user-attachments/assets/e1ba80f2-d0e2-4dae-aa87-37ef08ca5aba)
 
-- Répéter l'action pour le mappage de `DossiersPersonnels (F:)`
-![23](https://github.com/user-attachments/assets/a5c3899a-6970-4c7c-8aa6-2686f3786556)
+- Répéter l'action pour le mappage de `DossiersPersonnels (F:)` 
+  - La variable `%USERNAME%` utilise le nom d'utilisateur pour mapper automatiquement le dossier correspondant.  
+![21](https://github.com/user-attachments/assets/c1d9952d-233a-4c92-a229-64d5b5754b34)
+![23](https://github.com/user-attachments/assets/0408cf0f-219a-4191-a676-2dca89fe8924)
+
+- Vérification de la GPO
+![24](https://github.com/user-attachments/assets/aab47fd3-752d-4995-a93d-1f1d8963fdfb)
