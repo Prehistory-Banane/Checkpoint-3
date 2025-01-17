@@ -65,9 +65,9 @@ Montage du disque `sdb` sur le RAID `/dev/md0` avec la commande `mdadm --manage 
 
 
 ### Q.2.3.4
-Afficher les Volume Groups disponibles avec la commande `vgdisplay`
+Afficher les Volume Groups disponibles avec la commande `vgdisplay`  
 ![14](https://github.com/user-attachments/assets/890f7a50-6f5d-428c-a9fc-30ea09f54c61)  
-Créer le nouveau volume logique de 2GO du nom de `lv_svg`
+Créer le nouveau volume logique de 2GO du nom de `lv_svg`  
 ![15](https://github.com/user-attachments/assets/c3ea91a5-9168-4f75-9d4a-b53165037109)  
 
 
