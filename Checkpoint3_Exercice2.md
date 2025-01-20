@@ -69,7 +69,57 @@ Afficher les Volume Groups disponibles avec la commande `vgdisplay`
 ![14](https://github.com/user-attachments/assets/890f7a50-6f5d-428c-a9fc-30ea09f54c61)  
 Créer le nouveau volume logique de 2GO du nom de `lv_svg`  
 ![15](https://github.com/user-attachments/assets/c3ea91a5-9168-4f75-9d4a-b53165037109)  
+Formater le volume en lui donnant le nom `save`
+![17](https://github.com/user-attachments/assets/13b71f78-7edc-4c05-9ad1-ae97d9cfb7fb)
+Monter le LV
+![18](https://github.com/user-attachments/assets/3a666bc7-cdb3-48b4-b140-8a1b17fcb3f9)
+Configurer le fichier `/etc/fstab`
+![19](https://github.com/user-attachments/assets/dcbda843-2943-4189-95f1-d308c4ea993a)
+Vérifier que le montage est bon avec la commande `df -h`
+![20](https://github.com/user-attachments/assets/75a9eaa8-b492-4cb4-829e-85d77b9c5743)
+
+
+### Q.2.3.5
+Vérifier l'espace disponible dans le VG avec la commande `vgdisplay`
+![21](https://github.com/user-attachments/assets/c9c514e8-c0b3-450e-8c57-e25149696ca3)
 
 
 
+# Partie 4 : Sauvegardes
 
+### Q.2.2.1
+- **Bareos-dir** : le Director s'occupe de la configuration des tâches de Bareos comme gérer les sauvegardes (leur planification, contrôle et lancement). Il s'installe sur le serveur.
+- **Bareos-sd** : le Storage Daemon s'occupe du stockage des sauvegardes.
+- **Bareos-fd** : le File Daemon est l'agent installé sur les clients, il s'occupe d'envoyer les données à sauvegarder sur le Storage Daemon.
+
+
+
+# Partie 5 : Filtrage et analyse réseau
+
+### Q.2.5.1
+Vérification des règles appliquées sur Netfilter avec la commande `nft list ruleset`
+![22](https://github.com/user-attachments/assets/c5d049a0-e688-42b6-b537-cddf8ce2ea3c)
+
+
+### Q.2.5.2
+- `ct state established,related accept` autorise les connexions établies
+- `iifname "lo" accept` autorise le trafic local
+- `tcp dport 22 accept` autorise les connexions TCP destinées au port 22 (port SSH)
+- `ip protocol icmp accept` autorise les pings V4
+- `ip6 nexthdr icmpv6 accept` autorise les pings V6
+
+
+### Q.2.5.3
+- `ct state invalid drop` interdit les paquets invalides
+- Tous les paquest qui ne sont pas autorisés par une règle sont interdits
+
+
+### Q.2.5.4
+![23](https://github.com/user-attachments/assets/842148fc-798c-46cb-a4a2-70a9e7dbd473)
+
+
+
+# Partie 6 : Analyse de logs
+
+### Q.2.6.1
+![24](https://github.com/user-attachments/assets/b4bcdfcd-aeae-4647-ab4e-19d61b8f54a0)
