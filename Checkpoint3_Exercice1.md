@@ -78,6 +78,12 @@ On édite la GPO
 # Partie 3 : Lecteurs réseaux
 
 ### Q.1.3.1
+- Partage de `DossiersCommuns (E:)`  
+![Capture d’écran 2025-01-21 151840](https://github.com/user-attachments/assets/3d912cf0-b048-44e3-9925-ff69b7198d54)  
+- Réitérer la procédure pour `DossiersCommuns (F:)`
+- A chaque fois, bien penser à sauvegarder le `Network Path` qui sera nécessaire pour la suite
+![Capture d’écran 2025-01-21 152321](https://github.com/user-attachments/assets/eaf0a1fa-62c6-4b83-a7f3-fb3d3139d6b1)
+
 - Création de la nouvelle GPO **Drive_Mount**  
 ![19](https://github.com/user-attachments/assets/d90896ed-66b1-4c55-9717-81fc231666a3)
 
@@ -89,13 +95,13 @@ On édite la GPO
   - Cliquer sur `New` puis sur `Mapped Drive`  
 ![20](https://github.com/user-attachments/assets/22243253-ab2c-4a68-b7f4-6a918017bbf6)
 
-- Remplir les champs comme suit pour le mappage de `DossiersCommuns (E:)`
-![22](https://github.com/user-attachments/assets/e1ba80f2-d0e2-4dae-aa87-37ef08ca5aba)
+- Remplir les champs comme suit pour le mappage de `DossiersCommuns (E:)`  
+![22](https://github.com/user-attachments/assets/c9d5a2e3-0482-4e6e-8f5f-96777e72603a)  
 
-- Répéter l'action pour le mappage de `DossiersPersonnels (F:)` 
+- Répéter l'action pour le mappage de `DossiersPersonnels (F:)`  
   - La variable `%USERNAME%` utilise le nom d'utilisateur pour mapper automatiquement le dossier correspondant.  
-![21](https://github.com/user-attachments/assets/c1d9952d-233a-4c92-a229-64d5b5754b34)
-![23](https://github.com/user-attachments/assets/0408cf0f-219a-4191-a676-2dca89fe8924)
+![21](https://github.com/user-attachments/assets/40a70e6a-86e6-4a71-884f-5b610e342a30)  
+![23](https://github.com/user-attachments/assets/f9b357c1-8fb6-4c85-9d54-a59bef36d7fe)
 
 - Vérification de la GPO
 ![24](https://github.com/user-attachments/assets/aab47fd3-752d-4995-a93d-1f1d8963fdfb)
