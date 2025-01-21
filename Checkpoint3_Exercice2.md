@@ -105,10 +105,10 @@ Vérification des règles appliquées sur Netfilter avec la commande `nft list r
 
 ### Q.2.5.2
 - `ct state established,related accept` autorise les connexions établies
-- `iifname "lo" accept` autorise le trafic local
+- `iifname "lo" accept` autorise trafic de bouclage
 - `tcp dport 22 accept` autorise les connexions TCP destinées au port 22 (port SSH)
-- `ip protocol icmp accept` autorise les pings V4
-- `ip6 nexthdr icmpv6 accept` autorise les pings V6
+- `ip protocol icmp accept` autorise les paquets ICMPV4
+- `ip6 nexthdr icmpv6 accept` autorise les paquets ICMPV6
 
 
 ### Q.2.5.3
