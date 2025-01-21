@@ -45,6 +45,7 @@ Les fichiers montés sont ext2 et ext4.
 
 
 ### Q.2.3.2
+![6](https://github.com/user-attachments/assets/4bfbd014-c754-4089-9e56-534a6d0ed8fa)  
 Je vois que du `RAID1` est utilisé sur `md0` et que du `LVM` est utilisé `cp3-vg`
 
 
