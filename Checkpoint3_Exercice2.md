@@ -39,9 +39,9 @@ Pour mettre en place une authentification par clé valide et désactiver l'authe
 # Partie 3 : Analyse du stockage
 
 ### Q.2.3.1
-On utilise la commande `lsblk -f`
-![Capture d’écran 2025-01-21 165429](https://github.com/user-attachments/assets/53db371c-ce1a-43fe-a005-ab0835117782)
-Les fichiers montés sont ext2 et ext4.
+On utilise la commande `lsblk -f`  
+![Capture d’écran 2025-01-21 165429](https://github.com/user-attachments/assets/53db371c-ce1a-43fe-a005-ab0835117782)  
+Les fichiers montés sont ext2 et ext4.  
 
 
 ### Q.2.3.2
