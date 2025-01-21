@@ -21,6 +21,9 @@
 3. Vérification que cela a fonctionné  
 ![9](https://github.com/user-attachments/assets/eda38bbd-f2fc-43ab-9fdb-c191f1599ce1)
 
+4. Désactivation du compte de Kelly
+![Capture d’écran 2025-01-21 143256](https://github.com/user-attachments/assets/f3bfa45c-e789-4862-b286-0a44071c90d1)
+
 
 ### Q.1.1.3
 Suppression de Kelly du groupe de l'OU  
