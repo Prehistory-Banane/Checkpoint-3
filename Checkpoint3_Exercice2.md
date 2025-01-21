@@ -88,7 +88,7 @@ Vérifier l'espace disponible dans le VG avec la commande `vgdisplay`
 
 # Partie 4 : Sauvegardes
 
-### Q.2.2.1
+### Q.2.4.1
 - **Bareos-dir** : le Director s'occupe de la configuration des tâches de Bareos comme gérer les sauvegardes (leur planification, contrôle et lancement). Il s'installe sur le serveur.
 - **Bareos-sd** : le Storage Daemon s'occupe du stockage des sauvegardes.
 - **Bareos-fd** : le File Daemon est l'agent installé sur les clients, il s'occupe d'envoyer les données à sauvegarder sur le Storage Daemon.
