@@ -80,8 +80,8 @@ Vérifier que le montage est bon avec la commande `df -h`
 
 
 ### Q.2.3.5
-Vérifier l'espace disponible dans le VG avec la commande `vgdisplay`
-![21](https://github.com/user-attachments/assets/c9c514e8-c0b3-450e-8c57-e25149696ca3)
+Vérifier l'espace disponible dans le VG avec la commande `vgdisplay`  
+![21](https://github.com/user-attachments/assets/c9c514e8-c0b3-450e-8c57-e25149696ca3)  
 
 
 
