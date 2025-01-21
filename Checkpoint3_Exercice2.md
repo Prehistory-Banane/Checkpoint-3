@@ -39,8 +39,9 @@ Pour mettre en place une authentification par clé valide et désactiver l'authe
 # Partie 3 : Analyse du stockage
 
 ### Q.2.3.1
-![6](https://github.com/user-attachments/assets/ab2b21e1-ddc1-482b-ad3d-364354b942c7)  
-Je vois que `/` est monté sur `cp3--vg-root` et que `/boot` est monté sur `md0p1`
+On utilise la commande `lsblk -f`
+![Capture d’écran 2025-01-21 165429](https://github.com/user-attachments/assets/53db371c-ce1a-43fe-a005-ab0835117782)
+Les fichiers montés sont ext2 et ext4.
 
 
 ### Q.2.3.2
