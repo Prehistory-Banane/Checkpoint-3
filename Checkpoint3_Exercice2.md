@@ -8,7 +8,7 @@ Création d'un nouveau compte avec la commande `adduser`
 ### Q.2.1.2
 Le compte que je viens de créer est pour mon usage personnel, j'opterais pour le moindre privilège et ne lui donnerais donc pas de privilèges `root`.
 Je m'assurerais aussi que le mot de passe de ce compte soit sécuritaire.
-Je placerais ce compte dans le groupe `users` et je lui créerais son répertoir personnel dans `/home`
+Je placerais ce compte dans le groupe `users` et je lui créerais son répertoire personnel dans `/home`
 
 
 # Partie 2 : Gestion des utilisateurs
