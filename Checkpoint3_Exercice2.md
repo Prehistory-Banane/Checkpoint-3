@@ -69,14 +69,14 @@ Afficher les Volume Groups disponibles avec la commande `vgdisplay`
 ![14](https://github.com/user-attachments/assets/890f7a50-6f5d-428c-a9fc-30ea09f54c61)  
 Créer le nouveau volume logique de 2GO du nom de `lv_svg`  
 ![15](https://github.com/user-attachments/assets/c3ea91a5-9168-4f75-9d4a-b53165037109)  
-Formater le volume en lui donnant le nom `save`
-![17](https://github.com/user-attachments/assets/13b71f78-7edc-4c05-9ad1-ae97d9cfb7fb)
-Monter le LV
-![18](https://github.com/user-attachments/assets/3a666bc7-cdb3-48b4-b140-8a1b17fcb3f9)
-Configurer le fichier `/etc/fstab`
-![19](https://github.com/user-attachments/assets/dcbda843-2943-4189-95f1-d308c4ea993a)
-Vérifier que le montage est bon avec la commande `df -h`
-![20](https://github.com/user-attachments/assets/75a9eaa8-b492-4cb4-829e-85d77b9c5743)
+Formater le volume en lui donnant le nom `save`  
+![17](https://github.com/user-attachments/assets/13b71f78-7edc-4c05-9ad1-ae97d9cfb7fb)  
+Monter le LV  
+![18](https://github.com/user-attachments/assets/3a666bc7-cdb3-48b4-b140-8a1b17fcb3f9)  
+Configurer le fichier `/etc/fstab`  
+![19](https://github.com/user-attachments/assets/dcbda843-2943-4189-95f1-d308c4ea993a)  
+Vérifier que le montage est bon avec la commande `df -h`  
+![20](https://github.com/user-attachments/assets/75a9eaa8-b492-4cb4-829e-85d77b9c5743)  
 
 
 ### Q.2.3.5
